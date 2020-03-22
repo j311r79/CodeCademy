@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  max-width: 75vw;
+}
+
+.midground, .foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  margin: 15vh 0 0 15vw;
+  padding: 0;
+  width: 35vw;
+  height: 59vh;
+}
+
+body {
+  background-color: hsla(300, 50%, 50%, 0.25);
+}
+
+.midground {
+  background-color: hsl(60, 50%, 50%);
+}
+
+.foreground {
+  background-color: hsl(180, 50%, 50%);
+}
