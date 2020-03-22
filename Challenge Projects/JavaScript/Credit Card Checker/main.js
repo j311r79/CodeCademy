@@ -53,7 +53,7 @@ function validateCred(cardArray) {
   }
 }
 
-//returns an array of card #s as strings as valid or invalid & an array of invalid cards
+//returns an array of card numbers as strings as valid or invalid & an array of invalid cards
 function findInvalidCards(arrayOfCards) {
   let validatedCards = [];
   let invalidCards = [];
