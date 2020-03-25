@@ -148,3 +148,9 @@ console.log(findRelatedDna(arrayNew2));*/
 let compliment = pAequorFactory(1, strand).complementStrand();
 console.log(strand);
 console.log(compliment);*/
+
+//test .mutate method
+/*let newArray = mockUpStrand();
+console.log(newArray);
+let test = pAequorFactory(1, newArray).mutate();
+console.log(test);*/
